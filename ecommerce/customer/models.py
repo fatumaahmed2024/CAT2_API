@@ -8,4 +8,12 @@ class Customer(models.Model):
     
    def __str__(self):
     return self.first_name +" " +self.last_name
+
+ """
+    Represents a customer in the e-commerce system.
+    Fields:
+        - first_name: The first name of the customer.
+        - last_name: The last name of the customer.
+        - email: The email address of the customer (must be unique).
+    """
         
